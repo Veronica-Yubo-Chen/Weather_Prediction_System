@@ -53,7 +53,6 @@ def calculate_mean(weather_data):
     average = sum(float_data) / len(float_data)
     return average
 
-
 def load_data_from_csv(csv_file):
     """Reads a csv file and stores the data in a list.
 
